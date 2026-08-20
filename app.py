@@ -24,5 +24,13 @@ with col1:
 with col2:
   st.subheader("Esta es la segunda columna")
   modo = st.checkbox("Los gatos te ayudan a manejar tu mood?")
-  if modo == 'visual':
+  if modo == 'si':
     st.write('TWINS X2')
+  if modo == 'no':
+    st.write('Lastima')
+
+st.subheader("Uso de botones")
+if st.button('Presiona el boton'):
+  st.write('Gracias por presionas')
+else:
+  st.write('Presionalo pues')
