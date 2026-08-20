@@ -8,4 +8,4 @@ image = Image.open('healing.jfif')
 st.image(image, caption='hola')
 
 texto= st.text_input("Escribe tu mood","Este es tu mood")
-st.writer('Tu mood es',texto)
+st.write('Tu mood es',texto)
