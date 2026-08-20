@@ -25,4 +25,4 @@ with col2:
   st.subheader("Esta es la segunda columna")
   modo =st.checkbox("Los gatos te ayudan a manejar tu mood?")
   if modo == 'visual':
-    st.write(`TWINS X2`)
+    st.write('TWINS X2')
